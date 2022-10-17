@@ -1,0 +1,14 @@
+@import "./_mixins.scss";
+@import "./_variables.scss";
+
+.footer-cont {
+  width: 100%;
+  padding: 15px 30px;
+  background-color: #e1fcec;
+  @include flex(row, center, center);
+
+  .footer-text {
+    @include font(14px, $fontFamilyPrimary, 500);
+    letter-spacing: 0.5px;
+  }
+}

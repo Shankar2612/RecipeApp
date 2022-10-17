@@ -1,0 +1,15 @@
+@import "./Styles/_mixins.scss";
+@import "./Styles/_variables.scss";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+.suspense-loader-cont {
+  width: 100vw;
+  height: 100vh;
+  @include flex(row, center, center);
+}

@@ -1,0 +1,163 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Aloo Do Pyaza",
+      "description": "A hearty aloo recipe with generous amount of crunchy onions, tomato paste and a burst of aromatic spices.",
+      "img": "https://c.ndtvimg.com/2020-04/5l1httig_dum-aloo-_625x300_15_April_20.jpg",
+      "is_favourite": false,
+      "ingredients": [
+        {
+          "id": 10,
+          "name": "Onion (chopped)",
+          "value": 2,
+          "unit": "nos"
+        },
+        {
+          "id": 11,
+          "name": "Tomato (chopped)",
+          "value": 2,
+          "unit": "nos"
+        },
+        {
+          "id": 12,
+          "name": "Salt",
+          "value": 2,
+          "unit": "gm"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Paneer Butter Masala",
+      "description": "A delicious, luscious and rich butter based paneer (cottage cheese) dish, cooked in a creamy, milk gravy with the goodness of tomato and onion. A perfect dinner party dish so you will never have to think too much about what to cook for vegetarian party! An easy, tasty yet quick paneer recipe with aroma that will instantly palpitate your taste buds.",
+      "img": "https://c.ndtvimg.com/2020-07/3vsverf_shahi-paneer_625x300_15_July_20.jpg",
+      "is_favourite": false,
+      "ingredients": [
+        {
+          "id": 20,
+          "name": "Oil",
+          "value": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": 21,
+          "name": "Tomato (chopped)",
+          "value": 2,
+          "unit": "nos"
+        },
+        {
+          "id": 22,
+          "name": "Paneer (cubes)",
+          "value": 1,
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Aloo Do Pyaza",
+      "description": "A hearty aloo recipe with generous amount of crunchy onions, tomato paste and a burst of aromatic spices.",
+      "img": "https://c.ndtvimg.com/2020-04/5l1httig_dum-aloo-_625x300_15_April_20.jpg",
+      "is_favourite": false,
+      "ingredients": [
+        {
+          "id": 10,
+          "name": "Onion (chopped)",
+          "value": 2,
+          "unit": "nos"
+        },
+        {
+          "id": 11,
+          "name": "Tomato (chopped)",
+          "value": 2,
+          "unit": "nos"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Aloo Do Pyaza",
+      "description": "A hearty aloo recipe with generous amount of crunchy onions, tomato paste and a burst of aromatic spices.",
+      "img": "https://c.ndtvimg.com/2020-04/5l1httig_dum-aloo-_625x300_15_April_20.jpg",
+      "is_favourite": false,
+      "ingredients": [
+        {
+          "id": 10,
+          "name": "Onion (chopped)",
+          "value": 2,
+          "unit": "nos"
+        },
+        {
+          "id": 11,
+          "name": "Tomato (chopped)",
+          "value": 2,
+          "unit": "nos"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Aloo Do Pyaza",
+      "description": "A hearty aloo recipe with generous amount of crunchy onions, tomato paste and a burst of aromatic spices.",
+      "img": "https://c.ndtvimg.com/2020-04/5l1httig_dum-aloo-_625x300_15_April_20.jpg",
+      "is_favourite": false,
+      "ingredients": [
+        {
+          "id": 10,
+          "name": "Onion (chopped)",
+          "value": 2,
+          "unit": "nos"
+        },
+        {
+          "id": 11,
+          "name": "Tomato (chopped)",
+          "value": 2,
+          "unit": "nos"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Aloo Do Pyaza",
+      "description": "A hearty aloo recipe with generous amount of crunchy onions, tomato paste and a burst of aromatic spices.",
+      "img": "https://c.ndtvimg.com/2020-04/5l1httig_dum-aloo-_625x300_15_April_20.jpg",
+      "is_favourite": false,
+      "ingredients": [
+        {
+          "id": 10,
+          "name": "Onion (chopped)",
+          "value": 2,
+          "unit": "nos"
+        },
+        {
+          "id": 11,
+          "name": "Tomato (chopped)",
+          "value": 2,
+          "unit": "nos"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Aloo Do Pyaza",
+      "description": "A hearty aloo recipe with generous amount of crunchy onions, tomato paste and a burst of aromatic spices.",
+      "img": "https://c.ndtvimg.com/2020-04/5l1httig_dum-aloo-_625x300_15_April_20.jpg",
+      "is_favourite": false,
+      "ingredients": [
+        {
+          "id": 10,
+          "name": "Onion (chopped)",
+          "value": 2,
+          "unit": "nos"
+        },
+        {
+          "id": 11,
+          "name": "Tomato (chopped)",
+          "value": 2,
+          "unit": "nos"
+        }
+      ]
+    }
+  ]
+}

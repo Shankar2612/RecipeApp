@@ -1,0 +1,23 @@
+@import "./_mixins.scss";
+@import "./_variables.scss";
+
+.button-component {
+  padding: 6px 15px;
+  border-radius: 5px;
+  background: none;
+  border: none;
+  @include font(15px, $fontFamilyPrimary, 500);
+  @include flex(row, center, center);
+  letter-spacing: 0.5px;
+  //   font-family: "Poppins", sans-serif;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #d6ffe7;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}

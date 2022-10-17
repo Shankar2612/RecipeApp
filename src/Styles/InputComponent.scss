@@ -1,0 +1,13 @@
+@import "./_mixins.scss";
+@import "./_variables.scss";
+
+.input-component {
+  width: 100%;
+  margin-bottom: 15px;
+
+  .input-component-title {
+    @include font(16px, $fontFamilyPrimary, 500);
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+  }
+}

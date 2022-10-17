@@ -1,0 +1,18 @@
+@import "./_mixins.scss";
+@import "./_variables.scss";
+
+.text-area {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 4px 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  @include font(12px, $fontFamilyPrimary, 400);
+  min-height: 80px;
+  max-height: 100px;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}

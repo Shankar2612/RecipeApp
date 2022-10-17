@@ -1,0 +1,74 @@
+@import "./_mixins.scss";
+@import "./_variables.scss";
+
+.favourites-main-cont {
+  width: 100%;
+  position: relative;
+
+  .favourites-cont {
+    width: 100%;
+    margin-top: 75px;
+    padding: 30px 80px;
+    min-height: calc(100vh - 130px);
+
+    .favourites-title {
+      @include font(26px, $fontFamilyPrimary, 600);
+      letter-spacing: 0.5px;
+      margin-bottom: 20px;
+    }
+
+    .favourites-cards-cont {
+      width: 100%;
+      @include grid(repeat(4, 1fr), 30px);
+      grid-row-gap: 20px;
+    }
+
+    .empty-favourites-cont {
+      width: 100%;
+      height: 300px;
+      @include flex(column, center, center);
+
+      .no-favourite-icon-cont {
+        margin-bottom: 20px;
+      }
+
+      .no-favourites-text {
+        @include font(16px, $fontFamilyPrimary, 500);
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+      }
+
+      .explore-recipes-link {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint-1000) {
+  .favourites-main-cont {
+    .favourites-cont {
+      .favourites-cards-cont {
+        @include grid(repeat(3, 1fr), 30px);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint-800) {
+  .favourites-main-cont {
+    .favourites-cont {
+      .favourites-cards-cont {
+        @include grid(repeat(2, 1fr), 30px);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint-700) {
+  .favourites-main-cont {
+    .favourites-cont {
+      padding: 30px;
+    }
+  }
+}

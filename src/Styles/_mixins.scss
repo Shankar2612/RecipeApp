@@ -1,0 +1,20 @@
+@mixin grid($columns, $gap) {
+  display: grid;
+  grid-template-columns: $columns;
+  grid-gap: $gap;
+}
+
+@mixin flex($direction, $justifyContent, $alignItems) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin font($size, $family, $weight) {
+  font: {
+    family: $family;
+    size: $size;
+    weight: $weight;
+  }
+}

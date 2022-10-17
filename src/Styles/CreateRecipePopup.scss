@@ -1,0 +1,104 @@
+@import "./_mixins.scss";
+@import "./_variables.scss";
+
+.create-recipe-poupup-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  padding: 20px;
+  background-color: white;
+  z-index: 7;
+  transform: translate(-50%, -50%);
+
+  .close-icon-cont {
+    width: 100%;
+    @include flex(row, flex-end, center);
+    margin-bottom: 15px;
+
+    .close-icon {
+      width: fit-content;
+      background: none;
+      border: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:focus {
+        box-shadow: none;
+        outline: none;
+      }
+    }
+  }
+
+  .create-recipe-img-cont {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+
+    .create-recipe-img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .file-input {
+      display: none;
+    }
+  }
+
+  .create-recipe-no-img-cont {
+    width: 100%;
+    height: 200px;
+    @include flex(row, center, center);
+    background-color: rgb(203, 203, 203);
+    position: relative;
+    margin-bottom: 15px;
+
+    .file-input {
+      display: none;
+    }
+  }
+
+  .ingredient-list-cont {
+    width: 100%;
+    @include flex(row, flex-start, center);
+    margin-bottom: 10px;
+
+    .ingredient-list-count {
+      @include font(14px, $fontFamilyPrimary, 500);
+      margin-right: 10px;
+    }
+
+    .ingredient-list-values {
+      width: 80%;
+      @include grid(2fr 1fr 1fr, 10px);
+      margin-right: 10px;
+
+      .ingredient-field-cont {
+        width: 100%;
+        @include flex(column, flex-start, flex-start);
+      }
+    }
+
+    .delete-ingredient-icon-cont {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .ingredients-list-cont {
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+  }
+
+  .create-delete-save-btn-cont {
+    width: 100%;
+    @include flex(row, flex-end, center);
+  }
+}

@@ -1,0 +1,105 @@
+@import "./_mixins.scss";
+@import "./_variables.scss";
+
+.login-main-cont {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .login-card {
+    width: 80%;
+    // padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    @include grid(1fr 1fr, 20px);
+    box-shadow: 0px 0px 15px rgb(210, 210, 210);
+
+    .login-img-cont {
+      width: 100%;
+
+      .login-img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .login-form-cont {
+      width: 100%;
+      padding: 30px;
+      @include flex(column, center, center);
+
+      header {
+        width: 100%;
+
+        .salutation {
+          //   width: 100%;
+          font-size: 32px;
+          margin-bottom: 20px;
+        }
+
+        .welcome-back {
+          @include font(18px, $fontFamilyPrimary, 600);
+          letter-spacing: 0.5px;
+          margin-bottom: 8px;
+        }
+
+        .welcome-msg {
+          @include font(14px, $fontFamilyPrimary, 400);
+          margin-bottom: 30px;
+        }
+      }
+
+      main {
+        width: 100%;
+        margin-bottom: 20px;
+
+        .password-input-cont {
+          width: 100%;
+          padding: 4px 10px;
+          border: 1px solid grey;
+          border-radius: 4px;
+          @include flex(row, space-between, center);
+
+          .password-input-field {
+            width: 100%;
+            // padding: 4px 0px;
+            border: none;
+            margin-right: 15px;
+            @include font(12px, $fontFamilyPrimary, 400);
+
+            &:focus {
+              box-shadow: none;
+              outline: none;
+            }
+          }
+        }
+      }
+
+      .login-btn-cont {
+        width: 100%;
+        @include flex(row, center, center);
+        margin-bottom: 20px;
+      }
+
+      .already-loggedin-text {
+        width: 100%;
+        @include font(14px, $fontFamilyPrimary, 400);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint-700) {
+  .login-main-cont {
+    .login-card {
+      @include grid(1fr, 0px);
+
+      .login-img-cont {
+        display: none;
+      }
+    }
+  }
+}
